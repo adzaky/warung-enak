@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section id="hero" className="h-[560px]">
+    <section id="hero" className="relative h-[600px] overflow-hidden">
       <div className="absolute inset-0">
         <Image
           className="size-full object-cover"
