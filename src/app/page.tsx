@@ -1,3 +1,3 @@
 export default function Home() {
-  return <main>Home</main>;
+  return <div className="relative min-h-screen">Home</div>;
 }
