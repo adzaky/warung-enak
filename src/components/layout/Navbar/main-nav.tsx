@@ -6,7 +6,7 @@ import { NAV_LINKS } from "./constant";
 
 export default function MainNav() {
   return (
-    <header aria-label="navbar" className="sticky top-0 z-50 w-full shadow-sm">
+    <header aria-label="navbar" className="sticky top-0 z-50 w-full bg-white shadow-sm">
       <div className="container mx-auto p-5">
         <div className="flex items-center justify-between gap-4">
           <Link href="/">
