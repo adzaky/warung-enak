@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="container grid items-center justify-center justify-items-center gap-8 lg:grid-cols-4 lg:items-start">
           <div className="flex flex-col items-center gap-2 lg:items-start">
             <Link href="/">
-              <span className="text-3xl font-bold text-orange-600">Warung Enak</span>
+              <span className="text-3xl font-bold">Warung Enak</span>
             </Link>
             <p className="text-center text-gray-300 lg:text-start">
               Authentic Indonesian cuisine <br />
@@ -58,7 +58,7 @@ export default function Footer() {
             <h3 className="text-center text-2xl font-semibold lg:text-start">Newsletter</h3>
             <div className="flex rounded-lg shadow-sm">
               <Input
-                className="-me-px flex-1 rounded-lg rounded-e-none shadow-none focus-visible:z-10"
+                className="-me-px flex-1 rounded-lg rounded-e-none bg-white shadow-none focus-visible:z-10"
                 placeholder="Your Email"
                 type="email"
               />
