@@ -1,3 +1,5 @@
+import { Clock, MapPin, Phone } from "lucide-react";
+
 interface MenuItem {
   name: string;
   desc: string;
@@ -10,6 +12,12 @@ interface Testimonial {
   rating: number;
   review: string;
   img: string;
+}
+
+interface ContactInfo {
+  title: string;
+  content: string;
+  icon: React.ReactNode;
 }
 
 export const MENU_ITEMS: MenuItem[] = [
@@ -51,5 +59,23 @@ export const TESTIMONIALS: Testimonial[] = [
     rating: 5,
     review: "Their Nasi Goreng is to die for! Highly recommended!",
     img: "/images/customer-3.jpg",
+  },
+];
+
+export const CONTACT_INFO: ContactInfo[] = [
+  {
+    title: "Location",
+    content: "Jl. Sudirman No. 123\nJakarta Pusat, 10220",
+    icon: <MapPin className="text-gray-600" />,
+  },
+  {
+    title: "Hours",
+    content: "Monday - Sunday: 10:00 AM - 10:00 PM",
+    icon: <Clock className="text-gray-600" />,
+  },
+  {
+    title: "Contact",
+    content: "+62 21 5555 6666\ninfo@warungenak.com",
+    icon: <Phone className="text-gray-600" />,
   },
 ];
