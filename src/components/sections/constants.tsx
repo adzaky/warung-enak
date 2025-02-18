@@ -45,7 +45,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     name: "Sarah Johnson",
     rating: 5,
-    review: "The best Indonesian food I&apos;ve had! The Rendang is absolutely amazing.",
+    review: "The best Indonesian food I've had! The Rendang is absolutely amazing.",
     img: "/images/customer-1.jpg",
   },
   {
